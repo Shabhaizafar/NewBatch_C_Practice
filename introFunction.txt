@@ -1,0 +1,32 @@
+=> What is Function :
+->  It's a Block of Code which is Perform Some Specific Task.
+----------------------------------------------------
+
+- There are two Types:
+	1. In-Built Function.    (pre-defined Function : Language)
+		ex : printf,scanf,      strlen,strcpy,fopen,fclose etc...
+	----------------------------------------------------
+
+	2. User-defined Function.
+		- User Create a Function it's self.
+
+	How to Create a Function ? 
+		Method : 1 
+			Step : 1  Declare a Function.
+			Step : 2  Initialization of Function.
+			Step : 3  Calling Function.
+
+		Method: 2 
+			Step : 1  Declare + Initialization of Function
+			Step : 2  Calling Function.
+
+	----------------------------------------------------
+	User-defined Function : divided in a Four Part : 
+			1. without argument and without return type.
+			2. with argument and without return type.
+			3. without argument and with return type.
+			4. with argument and with return type.
+
+
+
+
