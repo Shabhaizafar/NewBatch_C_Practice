@@ -1,0 +1,53 @@
+=> What is an Array ? 
+-> It's a Collection of Data(value) which is Same Datatype.
+-------------------------------------------------------------------------------
+Recap : 
+    How to declare a Variable ?
+        datatype variablename;
+        int num1;
+        char ch;
+        float pi;
+
+
+        Multiple Data : 
+            int Array   ->  11,12,13,14
+            float Array ->  11.1,12.4,13.6
+            char Array  ->  'A','2','@'
+
+            mix Data   ->   11,4.14,'A'     (not Possible Array in C) 
+
+-------------------------------------------------------------------------------
+Why Array ? 
+        int num1 = 12;
+        int num2 = 13;
+        int num3 = 14;
+
+        function(n1,n2,n3,.......);
+
+        function(array);
+-------------------------------------------------------------------------------
+How To declare a Array in C ?            
+
+    wait a Moment !!
+
+=> Type of Array :      //maths  (Matrix)
+    There are 2 Types.
+    1. 1-D Array    (1-Daimantional Array)
+        in Maths :   arrayname[4]  = { 1 , 2 , 3 , 4 };
+
+
+    2. 2-D Array    (Multi-Daimantional Array)
+    in Maths :   arrayname[2][2]  = {
+                                        {1 , 2},
+                                        {3 , 4}
+                                };
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
