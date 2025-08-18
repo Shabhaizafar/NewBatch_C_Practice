@@ -1,0 +1,48 @@
+=> How to declare 1-D Array in C : 
+
+Pre-defined 1-D Array : 
+    Way : 1
+        Syntax : 
+            datatype arrayname[] = {values};
+
+            ex :
+                int arr1[] = {101,102,103};
+
+    Way : 2
+        Syntax : 
+            datatype arrayname[max size of array] = {values};
+
+            ex :
+                int arr1[3] = {101,102,103};    //valid
+                int arr1[4] = {101,102,103};    //valid
+
+                int arr1[2] = {101,102,103};    //in-valid
+
+
+---------------------------------------------------
+User-defined 1-D Array : 
+    way : 1
+        Syntax : 
+            datatype arrayname[Number of maximum Store elements in Array];
+
+            ex : 
+                int arr2[3];     //valid 
+                int arr2[];      //in-valid  //error
+
+
+(Pre-defined)
+---------------------------------------------------
+How to Access Any Specific Value from the Array :
+
+    int marks[] = {89,90,50,78};
+index :            0   1  2  3
+
+if I want to print 78
+                printf("%d",marks[3]);
+
+
+
+length : 
+-------------------------------------------------
+Note : 
+    Must Be Rememeber : index always start with 0 and numeric.
