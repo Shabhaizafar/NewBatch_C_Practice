@@ -41,8 +41,11 @@ if I want to print 78
                 printf("%d",marks[3]);
 
 
+if you want to Print Last Value : 
+    marks[(sizeof(marks)/sizeof(int))-1]
 
-length : 
+length(no of elements in an Array) :  sizeof(marks)/sizeof(int)
+size(Actual Space in array) :  sizeof(marks)
 -------------------------------------------------
 Note : 
     Must Be Rememeber : index always start with 0 and numeric.
