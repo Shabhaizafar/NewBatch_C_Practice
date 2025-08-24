@@ -1,0 +1,44 @@
+2D-Array :
+
+Pre-defined Array : 
+    Syntax :  datatype arrayname[no. of row][no. of col] = {data};
+
+            Ex : int arr[2][3] = {{5,6,7},{8,7,6}};
+
+        Ex : int arr[4][4] = {{5,6,7},{8,7,6}};     //Valid
+        Ex : int arr[][] = {{5,6,7},{8,7,6}};    // error  invalid
+
+
+
+
+
+    int arr[2][3] = {
+        {11,12,13},
+        {21,22,23}
+    }; 
+
+
+
+    ---------------------------
+    |i  j  | 
+    |⬇️➡️ | 0️⃣  |  1️⃣ | 2️⃣ |
+    ---------------------------
+    | 0️⃣  |  11  |  12  |  13 |
+
+    | 1️⃣  |  21  |  22  |  23 |
+    -------------------------
+
+
+11   => arr[0][0]  
+size of 11 n.  = sizeof(arr[0][0]) 
+
+
+if Check Size of Row : 
+sizeof(arr[0])
+
+
+User-defined Array : 
+
+    Syntax : datatype arrayname[no. row][no. col];
+
+
