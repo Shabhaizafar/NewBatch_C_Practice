@@ -1,0 +1,44 @@
+A1[i][k]: 							A2 [k][j]:
+
+        1       2       3							        11      12      13
+
+        4       5       6							        14      15      16
+
+        7       8       9							        17      18      19
+
+
+For Array Declaration loop : 
+	I am King. King is Joker.
+	A1[I][K]      A2[K][J]
+
+For Mul Array  loop: 	
+	I am Joker. Joker is King 
+ 	I > J > K
+
+
+mul[0][0] =   a1[0][0]*a2[0][0] + a1[0][1]a2[1][0]  +   a1[0][2]a2[2][0]     = sum 
+			      i     k         k    j            i     k        k    j               i     k        k    j     
+sum = 0
+
+mul[i][j]   =        mul[0][0]			mul[0][1]		mul[0][2]
+	
+	   	            mul[1][0]			mul[1][1]		mul[1][2]
+
+	   	            mul[2][0]			mul[2][1]		mul[2][2]
+
+
+
+
+
+A1 = 	1	2					A2 = 	1	2
+		3	4							3	4
+
+mul =    1*1+2*3     1*2+2*4
+	      3*1+4*3     3*2+4*4
+
+mul  =  7	       10
+           15       22
+
+
+
+
