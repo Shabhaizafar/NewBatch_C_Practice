@@ -1,0 +1,7 @@
+=> What is a String ? 
+-> It's a Collection  of Chars.
+    char mystr[];
+
+=> Array : It's a Collection of Data with is Same type.
+    int arr[10];
+    char arr[10];
