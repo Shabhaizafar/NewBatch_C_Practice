@@ -59,5 +59,3 @@ void main(){
     Sort strings by their length (shortest to longest).
 
 */
-
-//char str1 ="royal";
