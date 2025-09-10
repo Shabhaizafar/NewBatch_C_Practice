@@ -5,3 +5,5 @@ array
 string 
 
 pointer
+
+Structure
